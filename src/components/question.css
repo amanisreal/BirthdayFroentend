@@ -1,0 +1,25 @@
+.questionContainer{
+    margin: 100px auto;
+}
+
+.optionBox{
+    text-align: center;
+    font-size: 15px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    width: 12%;
+    border-color:antiquewhite;
+    background-color: white;
+    padding: 10px;
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.optionBox:hover{
+    cursor: pointer;
+    background-color: rgb(60, 182, 103);
+}

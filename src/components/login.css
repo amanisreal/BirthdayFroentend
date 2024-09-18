@@ -1,0 +1,51 @@
+.loginContainer{
+    text-align: center;
+    align-items: center;
+    width: 70%;
+    height: 60%;
+    margin: auto auto;
+    margin-top: 150px;
+}
+
+.nikitaInputBox{
+    text-align: center;
+    font-size: 22px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.passwordInputBox{
+    text-align: center;
+    font-size: 17px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    border-color:antiquewhite;
+    background-color: white;
+    padding: 10px;
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+.loginButton{
+    text-align: center;
+    font-size: 15px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    width: 10%;
+    border-color:antiquewhite;
+    background-color: white;
+    padding: 10px;
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}

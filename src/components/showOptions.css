@@ -1,0 +1,54 @@
+.showOptionsContainer{
+    font-size: 20px;
+    text-align: center;
+    font-size: 22px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(113, 112, 111);
+    list-style: none;
+    width: 70%;
+    margin: 140px auto;
+}
+
+.answers{
+    font-size: 20px;
+    text-align: center;
+    font-size: 22px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    border: none;
+    padding: 10px;
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(113, 112, 111);
+    list-style: none;
+    padding-top: 120px;
+}
+
+a {
+    color: rgba(218, 22, 175, 0.86);
+}
+.commonLink{
+    text-underline-offset: none;
+}
+
+@keyframes colorChange {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: yellow; }
+    100% { color: red; } /* Loop back to the start color */
+  }
+  
+  .h4Para {
+  background: linear-gradient(90deg, rgba(59, 71, 61, 0.86), rgba(81, 153, 96, 0.86), rgba(98, 195, 60, 0.86), rgba(8, 234, 31, 0.86));
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent;
+  }
