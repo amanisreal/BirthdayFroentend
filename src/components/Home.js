@@ -18,14 +18,15 @@ function Home() {
   
   return (
     <div className='homeContainer'>
-         <Flowers/>
+    <Flowers/>
+         {user.mcqDone? <ShowOptions/>: 
         <><div className='questionContainer'>
             Please select one option
         </div>
         <div className='questionBox'>
           <Question/>
         </div></>
-        
+      }
     </div>
   )
 }
