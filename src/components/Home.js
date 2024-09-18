@@ -12,6 +12,7 @@ function Home() {
   
   useEffect( () => {
     getUser();
+    console.log(user);
   }, [])
   
   
@@ -19,7 +20,7 @@ function Home() {
   return (
     <div className='homeContainer'>
     <Flowers/>
-         {user.mcqDone? <ShowOptions/>: 
+         {user?.mcqDone? <ShowOptions/>: 
         <><div className='questionContainer'>
             Please select one option
         </div>
