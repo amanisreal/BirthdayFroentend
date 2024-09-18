@@ -5,14 +5,15 @@ import orderContext from '../context/orderContext';
 function ShowOptions() {
   const context  = useContext(orderContext);
   const {user, getUser} = context;
-
-  useEffect(() => {
+  useEffect( () => {
     getUser();
   }, [])
+  
+  
   return (
     <div className='showOptionsContainer'>
 
-        <h4 className='h4Para'>The option You selected was {user.options} -> I will gift you somthing related to Diamond or glod which ever in my budget</h4>
+        <h4 className='h4Para'>The option You selected was {user? user.options : "NULL"} -> I will gift you somthing related to Diamond or glod which ever in my budget</h4>
         <p>Other options</p>
         <ul className='answers'>
             <li>Shoes</li>
